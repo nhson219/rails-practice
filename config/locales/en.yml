@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  name: "hello, my name is %{name}"
+  people:
+    one: "people"
+    other: "peoples"
+  time:
+    formats:
+      short: "Today is %H"

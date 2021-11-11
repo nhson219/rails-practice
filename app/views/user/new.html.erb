@@ -1,0 +1,10 @@
+<%= link_to "Back", user_index_path, class: "btn" %>
+<br/>
+<ul>
+  <% @user.errors.each do |error| %>
+    <li><%= error.full_message %></li>
+  <% end %>
+</ul>
+<div class="col-lg-12">
+<%= render "form", user: @user %>
+</div>

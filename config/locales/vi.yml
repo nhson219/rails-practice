@@ -1,0 +1,6 @@
+vi:
+  hello: "xin chao"
+  name: "xin chao, toi ten la %{name}"
+  time:
+    formats:
+      short: "Hom nay la ngay %H"
