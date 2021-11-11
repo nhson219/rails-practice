@@ -1,0 +1,10 @@
+<%= link_to "Back", blog_index_path, class: "btn" %>
+<br/>
+<ul>
+  <% @blog&.errors&.each do |error| %>
+    <li><%= error.full_message %></li>
+  <% end %>
+</ul>
+<div class="col-lg-12">
+  <%= render partial: "form", blog: @blog %>
+</div>

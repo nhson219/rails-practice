@@ -1,0 +1,6 @@
+<nav class="nav">
+  <%= link_to :Home, '/', class: 'nav-link' %>
+  <%= link_to :User, user_index_url, class: 'nav-link' %>
+  <%= link_to :Blog, blog_index_url, class: 'nav-link' %>
+  <%= link_to :Logout, destroy_user_session_path, class: 'nav-link' %>
+</nav>
